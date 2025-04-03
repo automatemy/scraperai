@@ -1,0 +1,2 @@
+[tool.nixpacks.start]
+cmd = "scraperai"

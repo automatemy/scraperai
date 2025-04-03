@@ -4,8 +4,10 @@ providers:
 setup:
   - python3 -m venv venv
   - . venv/bin/activate
+  - pip install --upgrade pip
+  - pip install wheel setuptools
   - pip install .
-  - pip install scraperai
+  - pip list
 
 start:
   cmd: python3 -m scraperai.cli.app
